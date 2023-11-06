@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-right-16.png">
+        <link rel="stylesheet" href="static/css/manager.css">
+        <title>Manager</title>
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <div class="logo"><img src="static/assets/images/logo.png" alt="" height="40"></div>
+                <div class="sec-info"></div>
+                <div class="profilepic">
+                    <img src="static/assets/images/profile.png" alt="" height="">
+                    <div class="info">
+                        <p>Ram Kumar</p>
+                        <p><a href="login.html" style="color: rgb(101, 204, 169);">Logout</a></p>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="container">
+            <!-- sidebar -->
+           <div class="sidebar">
+                <div class="side-nav">
+                    <nav>
+                    
+                        <ul>
+                            <li><img src="static/assets/images/icons8-layout-27.png" alt=""><a href="#">Dashboard</a></li>
+                            <li><img src="static/assets/images/icons8-pass-fail-27.png" alt=""><a href="#leaveapproval">Leave Approval</a></li>
+                            <li><img src="static/assets/images/icons8-graph-report-27.png" alt=""><a href="#rs">report & statistics</a></li>
+                            <li><img src="static/assets/images/icons8-today-27.png" alt=""><a href="#leavecalendar">Leave calendar</a></li>
+                        </ul>
+                    
+                    </nav>
+                </div>
+            </div>
+            <!-- container -->
+            <div class="content">
+                <!-- section 1 -->
+                <div class="section1 " >
+                        
+                    <div class="dashboard">
+                        
+                        <div class="profile">
+                            <div class="p2" style="position: relative;top: -1rem;z-index: -1; color: rgb(39, 53, 104);text-decoration:4px underline;"  ><h1>Dashboard</h1></div>
+                            <img src="static/assets/images/New Project (1).png" alt="" >
+                            <div class="p">
+                                <table>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td>: Ram</td>
+                                    </tr>
+                                    <tr>
+                                        <td>E.code</td>
+                                        <td>: M932</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Team number</td>
+                                        <td>: 7</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Designation</td>
+                                        <td>: Manager</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h2 >Details:</h2>
+                            <div class="d">
+                                <table>
+                                    <tr>
+                                        <td>Department</td>
+                                        <td>: Product design</td>
+                                    </tr>
+                                    <tr>
+                                        <td>E-mail</td>
+                                        <td>: Ram@company.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone</td>
+                                        <td>: 8903825461</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Joining Date</td>
+                                        <td>: 15-05-2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Leave Balance</td>
+                                        <td>: 15 days</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Work Schedule</td>
+                                        <td>: 9am - 5pm</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leave-card">
+                        <div class="teamlist">
+                            <table>
+                                <tr>
+                                    <th>E.code</th>
+                                    <th>Employee Name</th>
+                                    <th> Department </th>
+                                    <th>Leave Balance</th>
+                                    <th style="border-right: none;" ><Span>Present status</Span></th>
+                                </tr>
+                            
+                            
+                                <tr>
+                                    <td>E255</td>
+                                    <td>John Doe </td>
+                                    <td> Sales </td>
+                                    <td>15 days</td>
+                                    <td style="border-right: none;"><Span style="color: green;">Present</Span></td style="border-right: none;">
+                                </tr>
+                                <tr>
+                                    <td>E325</td>
+                                    <td>Jane smith          </td>
+                                    <td> Marketing </td>
+                                    <td>10 days</td>
+                                    <td style="border-right: none;"><Span style="color: green;">Present</Span></td style="border-right: none;">
+                                </tr>
+                                <tr>
+                                    <td>E334</td>
+                                    <td>Michael</td>
+                                    <td> Finance </td>
+                                    <td>12 days</td>
+                                    <td style="border-right: none;"><Span style="color: green;">Present</Span></td style="border-right: none;">
+                                </tr>
+                                <tr style="border-bottom: none;">
+                                    <td>E425</td>
+                                    <td>Sarah</td>
+                                    <td> IT </td>
+                                    <td>7 days</td>
+                                    <td style="border-right: none;"><Span style="color: rgb(255, 49, 49);">Absent</Span></td style="border-right: none;">
+                                </tr>
+                                
+                            </table>
+                        </div>
+                        <div class="notification">
+                            <h2>Notifications:</h2>
+                            <div class="n">
+                                <p><b>New Policy Update:</b> The company's leave policy has been updated. Please review the changes in the policy section.</p>
+                                <p><b>Leave Balance Alert: </b> Your remaining annual leave balance is 5 days. Plan your leaves accordingly.</p>
+                                <p><b>Team Calendar Updated: </b>The team calendar has been updated with the latest leave schedules. Please check for any overlapping leaves</p>
+                                <p><b>Holiday Notice: </b>The office will remain closed on 2nd November due to a national holiday. Plan your work accordingly.</p>
+
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+                <!-- section2 -->
+                <div class="section1 part2" id="leaveapproval">
+                        
+                    <div class="p2" style="color: rgb(39, 53, 104);text-decoration: 4px underline;text-underline-offset: 8px;"><h1>Leave Approval</h1></div>
+                    
+                        <div class="sortsection">
+                            <div class="sort">
+                                <select name="sort" id="sort">
+                                    <option value="Sort">Sort by</option>
+                                    <option value="Leave Type">Leave Type</option>
+                                    <option value="time">Time</option>
+                                    <option value="E.code">E.code</option>
+                                    <option value="Status">Status</option>
+                                </select>
+                                <div><p>E.code</p></div>
+                                <div><p>Recent</p></div>
+                                <div><p>Status</p></div>
+                            </div>
+                            <div class="searchbar">
+                                <div class="search">
+                                    <img src="static/assets/images/icons8-search-30.png" alt="">
+                                    <input type="text" placeholder="search">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="l-approval">
+                            <div class="ls-head">
+                                <div class="sno">E.code</div>
+                                <div class="ltype">Name</div>
+                                <div class="reason">Leave type</div>
+                                <div class="From" >From</div>
+                                <div class="To" >To</div>
+                                <div class="status" >Days/Hrs</div>
+                                <div class="manage" style="width: 25%;margin-left: 1rem;"><p style="text-align: center;padding-left: 5.5rem;">Actions</p></div>
+                            </div>
+                            <div class="ls-content">
+                                <div class="E.code">E345</div>
+                                <div class="E.name">Logeshwaran</div>
+                                <div class="ltype">Sick leave</div>
+                                <div class="From">16.05.2023</div>
+                                <div class="To">17.05.2023</div>
+                                <div class="status">1 day/0hrs</div>
+                                <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue;">Veiw</button></div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-tick-50.png" alt="" width="25" height="25">Approve</div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-cross-48.png" alt="" width="25" height="25">Reject</div>
+                            </div>
+                            <div class="ls-content">
+                                <div class="E.code">E345</div>
+                                <div class="E.name">Logeshwaran</div>
+                                <div class="ltype">Sick leave</div>
+                                <div class="From">16.05.2023</div>
+                                <div class="To">17.05.2023</div>
+                                <div class="status">1 day/0hrs</div>
+                                <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue;">Veiw</button></div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-tick-50.png" alt="" width="25" height="25">Approve</div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-cross-48.png" alt="" width="25" height="25">Reject</div>
+                            </div>
+                            <div class="ls-content">
+                                <div class="E.code">E345</div>
+                                <div class="E.name">Logeshwaran</div>
+                                <div class="ltype">Sick leave</div>
+                                <div class="From">16.05.2023</div>
+                                <div class="To">17.05.2023</div>
+                                <div class="status">1 day/0hrs</div>
+                                <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue;">Veiw</button></div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-tick-50.png" alt="" width="25" height="25">Approve</div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-cross-48.png" alt="" width="25" height="25">Reject</div>
+                            </div>
+                            <div class="ls-content">
+                                <div class="E.code">E345</div>
+                                <div class="E.name">Logeshwaran</div>
+                                <div class="ltype">Sick leave</div>
+                                <div class="From">16.05.2023</div>
+                                <div class="To">17.05.2023</div>
+                                <div class="status">1 day/0hrs</div>
+                                <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue;">Veiw</button></div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-tick-50.png" alt="" width="25" height="25">Approve</div>
+                                <div class="delete" style="display: flex;justify-content: center;align-items: center;"><img src="static/assets/images/icons8-cross-48.png" alt="" width="25" height="25">Reject</div>
+                            </div>
+                        </div>
+                    
+                            
+                    </div>
+
+                    <div class="section1 part3 " id="rs">
+                        <div class="p2" style="color: rgb(39, 53, 104);text-decoration: 4px underline;text-underline-offset: 8px;"><h2>Report and Statistics</h3></div>   
+                            
+                            <div class="ls">
+                                <div class="left">
+                                    <div class="teammember">
+                                        <p ><h4 style="margin-bottom: 3rem;color: rgb(39, 53, 104);">Team members list</h4></p>
+                                        <div class="ls-content tm">
+                                            <div class="sno">1.</div>
+                                            <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                            <div class="E.name">Logesh</div>
+                                            <div class="E.code">E345</div>
+                                            <div class="tl">UI/Ux</div>                                          
+                                            <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Details <img src="static/assets/images/icons8-right-16.png" alt=""></button></div>
+                                            
+                                        </div>
+                                        <div class="ls-content tm">
+                                            <div class="sno">2.</div>
+                                            <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                            <div class="E.name">Joe smith</div>
+                                            <div class="E.code">E345</div>
+                                            <div class="tl">UI/Ux</div>                                          
+                                            <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Details <img src="static/assets/images/icons8-right-16.png" alt=""></button></div>
+                                            
+                                        </div>
+                                        <div class="ls-content tm">
+                                            <div class="sno">3.</div>
+                                            <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                            <div class="E.name">Samuel</div>
+                                            <div class="E.code">E345</div>
+                                            <div class="tl">UI/Ux</div>                                          
+                                            <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Details <img src="static/assets/images/icons8-right-16.png" alt=""></button></div>
+                                            
+                                        </div>
+                                        <div class="ls-content tm">
+                                            <div class="sno">4.</div>
+                                            <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                            <div class="E.name">Michael</div>
+                                            <div class="E.code">E345</div>
+                                            <div class="tl">UI/Ux</div>                                          
+                                            <div class="manage"><button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Details <img src="static/assets/images/icons8-right-16.png" alt=""></button></div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="tstat">
+                                        <h4 style="color: rgb(39, 53, 104)">Team statistics</h4>
+                                        <img src="static/assets/images/pngwing.com.png" alt="" height="200" width="220">
+                                        <img src="static/assets/images/linechart.png" alt="" width="320" height="240">
+                                    </div>
+                                </div>
+                                
+                                <div class="right">
+                                    <h3 style="margin-bottom: 10px;text-align: left;font-size: 24px;color: rgb(39, 53, 104)">Employee report</h3>
+                                    <img src="static/assets/images/New Project (1).png" alt="">
+                                    <table>
+                                        <tr>
+                                            <td>Name</td>
+                                            <td>: logesh</td>
+                                        </tr>
+                                        <tr>
+                                            <td>E.code</td>
+                                            <td>: E932</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Team number</td>
+                                            <td>: 7</td>
+    
+                                        </tr>
+                                        <tr>
+                                            <td>Designation</td>
+                                            <td>: UI/UX designer</td>
+                                        </tr>
+                                    </table>
+                                    <p><b>Leave Distribution:</b></p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Annual Leave: 45%</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Sick Leave: 30%</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Maternity/Paternity Leave: 15%</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Others: 10%</p>
+                                    <p>The majority of the leave taken during this period consisted of annual leave, followed by sick leave. This distribution highlights the significance of providing adequate opportunities for employees to take regular breaks and emphasizes the importance of maintaining employee well-being.</p>
+                                    <button style="padding: 10px ;margin-left: 10rem; margin-top: 1rem;">Genrate Report</button>
+                                </div>
+                            </div>
+                        
+                        
+                    </div> 
+
+                    <div class="section1 part4 " id="leavecalendar">
+                        <div class="calendar">
+                            <div class="lcal">
+                                <div class="cmg">
+                                    <img src="static/assets/images/googletips_calendar_mini.jpg" alt="" width="100%" height="100%">
+                                </div>
+                            </div>
+                            <div class="rcal">
+                                <div class="tmpercent">
+                                    <h3 style="color: rgb(39, 53, 104)">Team performance</h3>
+                                    <img src="static/assets/images/barchart.png" alt="" width="80%" height="80%">
+                                </div>
+                                <div class="upcoming">
+                                    <h3 style="color: rgb(39, 53, 104)">Upcoming Leaves</h3>
+                                    <table>
+                                        <tr style="color: rgb(39, 53, 104)">
+                                            <th>Employee Name</th>
+                                            <th>Start Date</th>
+                                            <th>End Date</th>
+                                            <th>Type of Leave</th>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>logesh</td>
+                                            <td>2023-11-01</td>
+                                            <td>2023-11-03</td>
+                                            <td>Annual Leave</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Joe Smith</td>
+                                            <td>2023-11-05</td>
+                                            <td>2023-11-06</td>
+                                            <td>Sick Leave</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Samuel</td>
+                                            <td>2023-11-10</td>
+                                            <td>2023-11-15</td>
+                                            <td>Maternity Leave</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Michael</td>
+                                            <td>2023-11-12</td>
+                                            <td>2023-11-14</td>
+                                            <td>Personal Leave</td>
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                    </div>  
+    
+            </div>
+
+        </div>
+        <footer>
+            <p>TradeMark @ LM solutions  .  Terms and Conditions . 2023</p>
+        </footer>
+    </body>
+</html>
+    

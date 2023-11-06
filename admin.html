@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="static/css/admin.css">
+        <title>Admin</title>
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <div class="logo"><img src="static/assets/images/logo.png" alt="" height="40"></div>
+                <div class="sec-info"></div>
+                <div class="profilepic">
+                    <img src="static/assets/images/profile.png" alt="" height="">
+                    <div class="info">
+                        <p>Logeshwaran</p>
+                        <p><a href="login.html" style="color: rgb(101, 204, 169);">Logout</a></p>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="container">
+            <!-- sidebar -->
+           <div class="sidebar">
+                <div class="side-nav">
+                    <nav>
+                    
+                        <ul>
+                            <li><img src="static/assets/images/icons8-user-settings-27.png" alt=""><a href="#">Mananage Users</a></li>
+                            <li><img src="static/assets/images/icons8-configure-27.png" alt=""><a href="#Sysconfig">Configure system</a></li>
+                            
+                            
+                            
+                        </ul>
+                    
+                    </nav>
+                </div>
+            </div>
+    
+            <!-- content -->
+
+            <div class="content">
+                <!-- section1 -->
+                
+                    <div class="section1 " >
+                        
+                          <div class="user">
+                            <div class="heading">
+                                <p ><h4 style="text-decoration: 4px underline;text-underline-offset: 8px;color: rgb(39, 53, 104);">User Management</h4></p>
+
+                            </div>
+                            
+                            <div class="sortsection">
+                                <div class="sort">
+                                    
+                                    <div><p>E.code</p></div>
+                                    <div><p>Recent</p></div>
+                                    <div><p>Status</p></div>
+                                    <select name="sort" id="sort">
+                                        <option value="Sort">Sort by</option>
+                                        <option value="Leave Type">Leave Type</option>
+                                        <option value="time">Time</option>
+                                        <option value="E.code">E.code</option>
+                                        <option value="Status">Status</option>
+                                    </select>
+                                    
+                                </div>
+                                <div class="searchbar">
+                                    <div class="search">
+                                        <img src="static/assets/images/icons8-search-30.png" alt="">
+                                        <input type="text" placeholder="search">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="create"><a href="userform.html" target="_blank" style="text-decoration: none;"><button class="btn1"><img src="static/assets/images/icons8-add-user-male-27.png" alt="">create</button></a></div>
+
+                            <div class="data">
+                                <div style="position:-webkit-sticky;position: sticky;top: 0;">
+                                    <div class="ls-content tm head">
+                                        <div class="sno"><p>S.no</p></div>
+                                        <div class="pic"><p>Profile</p></div>
+                                        <div class="E.name"><p >Name</p></div>
+                                        <div class="E.code"><p >E.code</p></div>
+                                        <div class="manager"><p>Manager</p></div>
+                                        <div class="tl"><p>Department</p></div>                                          
+                                        <div class="manage"><p >Manage</p></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">1.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Logesh</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">2.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Sarath</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">3.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Samuel</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">4.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Michael</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">5.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Michael</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">6.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Michael</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">7.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Michael</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="ls-content tm">
+                                    <div class="sno">8.</div>
+                                    <div class="pic"><img src="static/assets/images/profile.png" alt=""></div>
+                                    <div class="E.name">Michael</div>
+                                    <div class="E.code">E345</div>
+                                    <div class="manager">Ram</div>
+                                    <div class="tl">UI/Ux</div>                                          
+                                    <div class="manage">
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;">Veiw/modify</button>
+                                        <button style="padding: 5px 7px;outline: none;background-color: aliceblue; border-radius: 10px;align-items: center;display: flex;justify-content: center;"> <img src="static/assets/images/icons8-delete-20.png" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>  
+        
+                    </div>
+
+                    <div class="section1 part2">
+                        <div style="display: flex;align-items: center;margin-left: 1rem;margin: 10px;">
+                            <img src="static/assets/images/icons8-gear-48.png" alt="">
+                            <h2 style="text-decoration: 4px underline;text-underline-offset: 8px;color: rgb(39, 53, 104);">System Configuration</h2>
+                        </div>
+                        <div class="top">
+                            <div class="c-h">
+                                <div class="Feature" >Feature</div>
+                                
+                                <div class="manage">Manage</div>
+                            </div>
+                        </div>
+                        <div class="config">
+                           
+                            <div class="ls-content c">
+                                <div class="symbol"><img src="static/assets/images/icons8-gear-38.png" alt=""></div>
+                                
+                                <div class="E.name">Change Leave Type</div>
+                                    <div style="display: flex;width: 50%;align-content: space-evenly;align-items: center;justify-content: space-around;">
+                                    <div class="manage"><button style="outline: none; border-radius: 5px;align-items: center;display: flex;justify-content: center;background-color:transparent;"><img src="static/assets/images/icons8-double-tick-27.png" alt=""></button></div>
+                                    <div class="manage"><button style="outline: none; border-radius: 5px;align-items: center;display: flex;justify-content: center;background-color:transparent"><img src="static/assets/images/icons8-cancel-27.png" alt=""></button></div>
+                                    <div class="manage"><img src="static/assets/images/icons8-rocket-launch-40.png" alt=""></div>
+                                </div>
+                            
+
+                            
+                                
+                            </div>
+                            <div class="ls-content d">
+                                <div class="l">
+                                    <h3>Add</h3>
+                                    <div class="half">
+                                        <div class="content-l">
+                                            <label for="">Enter Leave Type:</label>
+                                        <div style="margin-top: 1rem;border: none;"><input type="text" placeholder="Leave Type"></div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="bu lb">
+                                        <button style="background-color: lightgreen;outline: none; border-radius: 5px;">Add</button>
+                                        <button style="background-color: rgba(254, 34, 34, 0.652);outline: none; border-radius: 5px;">Cancel</button>
+                                    </div>
+
+                                </div>
+                                <div class="r">
+                                    <h3>Modify</h3>
+                                    <div class="half">
+                                        
+                                            
+                                        <div class="content-h">
+                                            <div><p>Sick leave</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>paid leave</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Maternity leave</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Unpaid leave</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="bu rb">
+                                        <button style="background-color: lightgreen;outline: none; border-radius: 5px;">Modify</button>
+                                        <button style="background-color: rgba(254, 34, 34, 0.652);outline: none; border-radius: 5px;">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ls-content c">
+                                <div class="symbol"><img src="static/assets/images/icons8-gear-38.png" alt=""></div>
+                                
+                                <div class="E.name">Change holiday</div>
+                                    <div style="display: flex;width: 50%;align-content: space-evenly;align-items: center;justify-content: space-around;">
+                                    <div class="manage"><button style="outline: none; border-radius: 5px;align-items: center;display: flex;justify-content: center;background-color:transparent;"><img src="static/assets/images/icons8-double-tick-27.png" alt=""></button></div>
+                                    <div class="manage"><button style="outline: none; border-radius: 5px;align-items: center;display: flex;justify-content: center;background-color:transparent"><img src="static/assets/images/icons8-cancel-27.png" alt=""></button></div>
+                                    <div class="manage"><img src="static/assets/images/icons8-rocket-launch-40.png" alt=""></div>
+                                </div>
+                            
+
+                            
+                                
+                            </div>
+                            <div class="ls-content d">
+                                <div class="l">
+                                    <h3>Add</h3>
+                                    <div class="half">
+                                        <div class="content-l">
+                                            <input type="text" name="" id="" placeholder="Holiday Name"><br>
+                                            <input
+                                                placeholder="From"
+                                                class="textbox-n"
+                                                type="text"
+                                                onfocus="(this.type='date')"
+                                                onblur="(this.type='text')"
+                                                id="date" />
+                                            <input
+                                            placeholder="To"
+                                            class="textbox-n"
+                                            type="text"
+                                            onfocus="(this.type='date')"
+                                            onblur="(this.type='text')"
+                                            id="date" />
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="bu f2">
+                                        <button style="background-color: lightgreen;outline: none; border-radius: 5px;">Add</button>
+                                        <button style="background-color: rgba(254, 34, 34, 0.652);outline: none; border-radius: 5px;">Cancel</button>
+                                    </div>
+
+                                </div>
+                                <div class="r">
+                                    <h3>Modify</h3>
+                                    <div class="half">
+                                        
+                                        <div class="hd2"><div><p>Holiday name</p><p>From</p><p>To</p><p>Manage</p></div></div>
+                                        <div class="content-h d2">
+                                            <div><p>Ayudha puja</p><p>19 Aug 2023</p><p>21 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Diwali&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>19 Aug 2023</p><p>21 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>New Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>19 Aug 2023</p><p>21 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Pongal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>19 Aug 2023</p><p>21 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="bu f2">
+                                        <button style="background-color: lightgreen;outline: none; border-radius: 5px;">Modify</button>
+                                        <button style="background-color: rgba(254, 34, 34, 0.652);outline: none; border-radius: 5px;">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ls-content c">
+                                <div class="symbol"><img src="static/assets/images/icons8-gear-38.png" alt=""></div>
+                                
+                                <div class="E.name">Customize Email Template</div>
+                                    <div style="display: flex;width: 50%;align-content: space-evenly;align-items: center;justify-content: space-around;">
+                                    <div class="manage"><button style="outline: none; border-radius: 5px;align-items: center;display: flex;justify-content: center;background-color:transparent;"><img src="static/assets/images/icons8-double-tick-27.png" alt=""></button></div>
+                                    <div class="manage"><button style="outline: none; border-radius: 5px;align-items: center;display: flex;justify-content: center;background-color:transparent"><img src="static/assets/images/icons8-cancel-27.png" alt=""></button></div>
+                                    <div class="manage"><img src="static/assets/images/icons8-rocket-launch-40.png" alt=""></div>
+                                </div>
+                            
+
+                            
+                                
+                            </div>
+                            <div class="ls-content d">
+                                <div class="l">
+                                    <h3>Add</h3>
+                                    <div class="half">
+                                        <div class="content-l">
+                                            <input type="text" name="" id="" placeholder="Template Name"><br>
+                                            <div class="create"><a href="userform.html" target="_blank" style="text-decoration: none;"><button class="btn2"><img src="static/assets/images/icons8-plus-27.png" alt="">&nbsp;create</button></a></div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="bu f2">
+                                        <button style="background-color: lightgreen;outline: none; border-radius: 5px;">Add</button>
+                                        <button style="background-color: rgba(254, 34, 34, 0.652);outline: none; border-radius: 5px;">Cancel</button>
+                                    </div>
+
+                                </div>
+                                <div class="r">
+                                    <h3>Modify</h3>
+                                    <div class="half">
+                                        
+                                        <div class="hd2"><div><p>Template Name</p><p>Created on</p><p>Manage</p></div></div>
+                                        <div class="content-h d2">
+                                            <div><p>Pongal wishes</p><p>19 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Leave balance</p><p>19 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Leave accept</p><p>19 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                            <div><p>Leave reject</p><p>19 Aug 2023</p><img src="static/assets/images/icons8-remove-20.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="bu f2">
+                                        <button style="background-color: lightgreen;outline: none; border-radius: 5px;">Modify</button>
+                                        <button style="background-color: rgba(254, 34, 34, 0.652);outline: none; border-radius: 5px;">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color:E0E1DC;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.form{
+    border: 1px solid;
+    width: 40vw;
+    height: 100vh;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    
+}
+
+.heading{
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    height: 40;
+   
+    display: flex;
+    /* font-weight: bold; */
+  }
+  .btn img{
+    
+    padding-left: 2rem;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  select{
+    width: 15rem;
+    height: 40px;
+    background-color: white;
+    border: 1px solid;
+    padding-left: 2rem;
+}
+
+
+
+input[type=date],input[type=button],input[type=text]{
+    width: 240px;
+    height: 40px;
+    padding-left: 1rem;
+    font-weight: 100;
+
+    /* box-shadow:-4px 4px 4px  rgba(0,0,0,0.25) ; */
+    border:1px solid;
+
+    
+
+}
+input[type=email]{
+    width: 240px;
+    height: 40px;
+    padding-left: 1rem;
+    font-weight: 100;
+
+    /* box-shadow:-4px 4px 4px  rgba(0,0,0,0.25) ; */
+    border:1px solid;
+}
+
+input[type=password]{
+    width: 240px;
+    height: 40px;
+    padding-left: 1rem;
+    font-weight: 100;
+
+    /* box-shadow:-4px 4px 4px  rgba(0,0,0,0.25) ; */
+    border:1px solid;
+}
+
+button{
+    padding: 10px 20px;
+}
+
+.fdata,.upload{
+    margin-left: 12rem;
+}
+.line1,.line2,.line4{
+    display: flex;
+    gap: 6rem;
+    margin: 1rem;
+}
+.form > label:nth-child(5) {
+    margin-left: 18px;
+    
+    }
+
+    .form > label:nth-child(8) {
+        margin-left: 18px;
+        }
+
+
+.line5{
+    display: flex;
+    margin-top: 4rem;
+    margin: 1rem;
+    column-gap: 2.5rem;
+}
